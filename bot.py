@@ -213,4 +213,4 @@ async def инфобот(ctx):
 
     await ctx.send(embed=embed)
 
-client.run(os.environ['TOKEN'])
+client.run(str(os.environ['TOKEN'])
